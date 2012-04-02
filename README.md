@@ -1,0 +1,1 @@
+This is sample code for the talk "Don't Make Me Repeat Myself"
