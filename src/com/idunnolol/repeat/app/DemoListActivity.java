@@ -12,6 +12,7 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.idunnolol.repeat.R;
 import com.idunnolol.repeat.app.DemoListActivity.DemoAdapter.Item;
 
 public class DemoListActivity extends ListActivity {
@@ -24,6 +25,17 @@ public class DemoListActivity extends ListActivity {
 
 		mAdapter = new DemoAdapter();
 		setListAdapter(mAdapter);
+
+		// Demonstrates a bad way of setting up varying layouts where most of the
+		// content remains the same.
+		mAdapter.addLayoutItem("Headers (Bad Setup)", R.layout.activity_headers_bad);
+
+		// A better version of the headers setup
+		mAdapter.addLayoutItem("Headers (Good Setup)", R.layout.activity_headers_good);
+
+		// A version that takes things a bit too far, but shows how you can nest includes
+		// inside of other includes to just change the modified parts of a layout
+		mAdapter.addLayoutItem("Headers (Nested Setup)", R.layout.activity_headers_nested);
 	}
 
 	@Override

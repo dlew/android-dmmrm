@@ -2,5 +2,8 @@
 <resources>
 
     <string name="app_name">Don\'t Make Me Repeat Myself</string>
+    <string name="header_title">Header Title</string>
+    <string name="header_subtitle">Header Subtitle</string>
+    <string name="content_placeholder">The content of the app would go here.</string>
 
 </resources>
