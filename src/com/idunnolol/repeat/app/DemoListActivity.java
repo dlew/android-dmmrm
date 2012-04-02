@@ -36,6 +36,9 @@ public class DemoListActivity extends ListActivity {
 		// A version that takes things a bit too far, but shows how you can nest includes
 		// inside of other includes to just change the modified parts of a layout
 		mAdapter.addLayoutItem("Headers (Nested Setup)", R.layout.activity_headers_nested);
+
+		// Demonstrates how you can change a string between English and French
+		mAdapter.addLayoutItem("Resource Qualifiers - Strings", R.layout.activity_strings);
 	}
 
 	@Override
