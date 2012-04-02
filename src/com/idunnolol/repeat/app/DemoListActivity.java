@@ -39,6 +39,9 @@ public class DemoListActivity extends ListActivity {
 
 		// Demonstrates how you can change a string between English and French
 		mAdapter.addLayoutItem("Resource Qualifiers - Strings", R.layout.activity_strings);
+
+		// Demonstrates how you can change a dimension size between portrait/landscape
+		mAdapter.addLayoutItem("Resource Qualifiers - Dimensions", R.layout.activity_dimens);
 	}
 
 	@Override
