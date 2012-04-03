@@ -26,4 +26,14 @@
 
     <string name="preference_title">Click this preference!</string>
     <string name="preference_changed">Preference was just changed.</string>
+
+    <!-- Used in the string-array "my_string_array" -->
+    <string name="item_1">Item 1</string>
+    <string name="item_2">Item 2</string>
+    <string name="item_3">Item 3</string>
+
+    <!-- Used in activity_styles.xml -->
+    <string name="styles_base">Base style</string>
+    <string name="styles_implicit">Implicit parent of base style, with large text.</string>
+    <string name="styles_explicit">Explicit parent of base style, with small text.</string>
 </resources>

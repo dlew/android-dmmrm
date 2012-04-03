@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base style for TextViews -->
+    <style name="Text">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- Implicit parent of "Text" -->
+    <style name="Text.Large">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <!-- Explicit parent of "Text" -->
+    <style name="SmallText" parent="Text">
+        <item name="android:textSize">8sp</item>
+    </style>
+
+</resources>

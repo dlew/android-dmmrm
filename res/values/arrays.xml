@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Small tidbit about correct usage of string-array -->
+    <string-array name="my_string_array">
+        <item>@string/item_1</item>
+        <item>@string/item_2</item>
+        <item>@string/item_3</item>
+    </string-array>
+
+</resources>

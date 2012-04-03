@@ -62,6 +62,9 @@ public class DemoListActivity extends ListActivity {
 
 		// Demonstrates how to use strings as identifiers (for preferences/fragments)
 		mAdapter.addActivityItem("Strings - Identifiers", PreferenceActivity.class);
+
+		// Demonstrates how to use different style parent
+		mAdapter.addLayoutItem("Styles - Parenting", R.layout.activity_styles);
 	}
 
 	@Override
