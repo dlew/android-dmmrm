@@ -3,14 +3,20 @@
 
     <string name="app_name">Don\'t Make Me Repeat Myself</string>
     <string name="hello">Hello!</string>
+
+    <!-- Used in activity_headers_* -->
     <string name="header_title">Header Title</string>
     <string name="header_subtitle">Header Subtitle</string>
     <string name="content_placeholder">The content of the app would go here.</string>
+
+    <!-- Used in activity_integer_visibility.xml -->
     <string name="visibility_test">This string should be visible in portrait but disappear in landscape.</string>
-    <string name="animation_test">This string should animate in differently in portrait and landscape.</string>
+
+    <!-- Used in activity_bools.xml -->
     <string name="landscape_not_detected">The device IS NOT in landscape orientation.</string>
     <string name="landscape_detected">The device IS in landscape orientation.</string>
 
+    <!-- Used in activity_plurals.xml -->
     <plurals name="items_pluralization">
         <item quantity="zero">%d items</item>
         <item quantity="one">%d item</item>
@@ -22,8 +28,10 @@
 
     <string name="plurals_button">Click to Increment</string>
 
+    <!-- Used in activity_string_formatting.xml -->
     <string name="template_example">%1$s - %2$s</string>
 
+    <!-- Used in activity_preferences.xml -->
     <string name="preference_title">Click this preference!</string>
     <string name="preference_changed">Preference was just changed.</string>
 
@@ -36,4 +44,5 @@
     <string name="styles_base">Base style</string>
     <string name="styles_implicit">Implicit parent of base style, with large text.</string>
     <string name="styles_explicit">Explicit parent of base style, with small text.</string>
+
 </resources>
