@@ -3,6 +3,7 @@ package com.idunnolol.repeat.app;
 import java.util.ArrayList;
 import java.util.List;
 
+import android.app.Activity;
 import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -42,6 +43,19 @@ public class DemoListActivity extends ListActivity {
 
 		// Demonstrates how you can change a dimension size between portrait/landscape
 		mAdapter.addLayoutItem("Resource Qualifiers - Dimensions", R.layout.activity_dimens);
+
+		// Demonstrates using integers to modify weights between portrait/landscape
+		mAdapter.addLayoutItem("Resource Qualifiers - Integer Weights", R.layout.activity_integer_weights);
+
+		// Demonstrates using integers to modify enumerated attributes
+		// (in this case, visibility) between portrait/landscape
+		mAdapter.addLayoutItem("Resource Qualifiers - Integer Visibility", R.layout.activity_integer_visibility);
+
+		// Demonstrates how to change animations between portrait/landscape
+		mAdapter.addLayoutItem("Resource Qualifiers - Animations", R.layout.activity_animations);
+
+		// Demonstrates how you can use booleans to detect configuration
+		mAdapter.addActivityItem("Resource Qualifiers - Booleans", DetectConfigActivity.class);
 	}
 
 	@Override
@@ -72,6 +86,16 @@ public class DemoListActivity extends ListActivity {
 				public void run() {
 					Intent intent = new Intent(DemoListActivity.this, LayoutDemoActivity.class);
 					intent.putExtra(LayoutDemoActivity.EXTRA_LAYOUT_ID, layoutId);
+					startActivity(intent);
+				}
+			});
+		}
+
+		public void addActivityItem(String label, final Class<? extends Activity> activity) {
+			addItem(label, new Runnable() {
+				@Override
+				public void run() {
+					Intent intent = new Intent(DemoListActivity.this, activity);
 					startActivity(intent);
 				}
 			});

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Used with activity_integer_weights -->
+    <integer name="weight1">1</integer>
+    <integer name="weight2">1</integer>
+    
+    <!-- Used with activity_integer_visibility.  0 == visible -->
+    <integer name="is_visible">0</integer>
+
+</resources>

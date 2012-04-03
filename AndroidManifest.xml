@@ -20,6 +20,8 @@
         </activity>
 
         <activity android:name=".app.LayoutDemoActivity" />
+
+        <activity android:name=".app.DetectConfigActivity" />
     </application>
 
 </manifest>

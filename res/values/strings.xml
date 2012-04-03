@@ -6,5 +6,9 @@
     <string name="header_title">Header Title</string>
     <string name="header_subtitle">Header Subtitle</string>
     <string name="content_placeholder">The content of the app would go here.</string>
+    <string name="visibility_test">This string should be visible in portrait but disappear in landscape.</string>
+    <string name="animation_test">This string should animate in differently in portrait and landscape.</string>
+    <string name="landscape_not_detected">The device IS NOT in landscape orientation.</string>
+    <string name="landscape_detected">The device IS in landscape orientation.</string>
 
 </resources>
