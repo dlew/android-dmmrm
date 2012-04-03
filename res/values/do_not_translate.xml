@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="key_preference">key_preference</string>
+    <string name="tag_preference_fragment">tag_preference_fragment</string>
+
+</resources>

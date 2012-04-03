@@ -23,4 +23,7 @@
     <string name="plurals_button">Click to Increment</string>
 
     <string name="template_example">%1$s - %2$s</string>
+
+    <string name="preference_title">Click this preference!</string>
+    <string name="preference_changed">Preference was just changed.</string>
 </resources>

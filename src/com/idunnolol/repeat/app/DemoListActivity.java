@@ -59,6 +59,9 @@ public class DemoListActivity extends ListActivity {
 
 		// Demonstrates how to create string templates
 		mAdapter.addActivityItem("Strings - Templating", StringFormatActivity.class);
+
+		// Demonstrates how to use strings as identifiers (for preferences/fragments)
+		mAdapter.addActivityItem("Strings - Identifiers", PreferenceActivity.class);
 	}
 
 	@Override
