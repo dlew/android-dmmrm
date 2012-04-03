@@ -45,4 +45,7 @@
     <string name="styles_implicit">Implicit parent of base style, with large text.</string>
     <string name="styles_explicit">Explicit parent of base style, with small text.</string>
 
+    <!-- Used with activity_layout_alias -->
+    <string name="alias_msg_small">This layout is from the normal /layout/ directory</string>
+    <string name="alias_msg_large">This layout is either from /layout-large/ or /layout-sw600dp/, depending on your device</string>
 </resources>

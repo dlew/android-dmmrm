@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<item name="activity_layout_alias" type="layout">@layout/activity_layout_alias_large</item>
+
+</resources>

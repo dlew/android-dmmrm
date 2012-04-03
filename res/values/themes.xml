@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Theme that inherits from old theme -->
+    <style name="MyTheme" parent="@android:style/Theme" />
+
+    <!--
+	    Regardless of whether it was using holo or not,
+    	you can add stuff here and apply it to both
+    -->
+    <style name="AppTheme" parent="@style/MyTheme" />
+
+</resources>

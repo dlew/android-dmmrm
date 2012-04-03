@@ -65,6 +65,9 @@ public class DemoListActivity extends ListActivity {
 
 		// Demonstrates how to use different style parent
 		mAdapter.addLayoutItem("Styles - Parenting", R.layout.activity_styles);
+
+		// Demonstrates how to use layout aliasing
+		mAdapter.addLayoutItem("Aliases - Layouts", R.layout.activity_layout_alias);
 	}
 
 	@Override
