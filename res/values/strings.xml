@@ -11,4 +11,16 @@
     <string name="landscape_not_detected">The device IS NOT in landscape orientation.</string>
     <string name="landscape_detected">The device IS in landscape orientation.</string>
 
+    <plurals name="items_pluralization">
+        <item quantity="zero">%d items</item>
+        <item quantity="one">%d item</item>
+        <item quantity="two">%d items</item>
+        <item quantity="few">%d items</item>
+        <item quantity="many">%d items</item>
+        <item quantity="other">%d items</item>
+    </plurals>
+
+    <string name="plurals_button">Click to Increment</string>
+
+    <string name="template_example">%1$s - %2$s</string>
 </resources>

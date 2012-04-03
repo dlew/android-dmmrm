@@ -22,6 +22,10 @@
         <activity android:name=".app.LayoutDemoActivity" />
 
         <activity android:name=".app.DetectConfigActivity" />
+
+        <activity android:name=".app.PluralsActivity" />
+
+        <activity android:name=".app.StringFormatActivity" />
     </application>
 
 </manifest>

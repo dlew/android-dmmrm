@@ -51,11 +51,14 @@ public class DemoListActivity extends ListActivity {
 		// (in this case, visibility) between portrait/landscape
 		mAdapter.addLayoutItem("Resource Qualifiers - Integer Visibility", R.layout.activity_integer_visibility);
 
-		// Demonstrates how to change animations between portrait/landscape
-		mAdapter.addLayoutItem("Resource Qualifiers - Animations", R.layout.activity_animations);
-
 		// Demonstrates how you can use booleans to detect configuration
 		mAdapter.addActivityItem("Resource Qualifiers - Booleans", DetectConfigActivity.class);
+
+		// Demonstrates how to use plural resources
+		mAdapter.addActivityItem("Strings - Plurals", PluralsActivity.class);
+
+		// Demonstrates how to create string templates
+		mAdapter.addActivityItem("Strings - Templating", StringFormatActivity.class);
 	}
 
 	@Override
