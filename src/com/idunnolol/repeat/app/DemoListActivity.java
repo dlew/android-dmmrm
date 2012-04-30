@@ -54,6 +54,12 @@ public class DemoListActivity extends ListActivity {
 		// Demonstrates how you can use booleans to detect configuration
 		mAdapter.addActivityItem("Resource Qualifiers - Booleans", DetectConfigActivity.class);
 
+		// Demonstrates how to use repeated includes for layouts
+		mAdapter.addActivityItem("Repeated Inflation - Includes", RepeatedIncludeActivity.class);
+
+		// Demonstrates how to use repeated inflation for layouts
+		mAdapter.addActivityItem("Repeated Inflation - Inflater", RepeatedInflationActivity.class);
+
 		// Demonstrates how to use plural resources
 		mAdapter.addActivityItem("Strings - Plurals", PluralsActivity.class);
 
