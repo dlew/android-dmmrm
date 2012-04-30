@@ -30,6 +30,8 @@
 
         <activity android:name=".app.PluralsActivity" />
 
+        <activity android:name=".app.DrawableXmlActivity" />
+
         <activity android:name=".app.StringFormatActivity" />
 
         <activity android:name=".app.PreferenceActivity" />
