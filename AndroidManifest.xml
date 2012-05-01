@@ -34,6 +34,8 @@
 
         <activity android:name=".app.LayerDrawableActivity" />
 
+        <activity android:name=".app.LevelDrawableActivity" />
+
         <activity android:name=".app.StringFormatActivity" />
 
         <activity android:name=".app.PreferenceActivity" />

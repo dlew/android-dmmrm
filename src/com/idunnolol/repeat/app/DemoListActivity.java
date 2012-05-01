@@ -78,6 +78,9 @@ public class DemoListActivity extends ListActivity {
 		// Demonstrates one use of layer drawables
 		mAdapter.addActivityItem("Drawables - Layer Drawable", LayerDrawableActivity.class);
 
+		// Demonstrates one use of level drawables
+		mAdapter.addActivityItem("Drawables - Level Drawable", LevelDrawableActivity.class);
+
 		// Demonstrates how to use layout aliasing
 		mAdapter.addLayoutItem("Aliases - Layouts", R.layout.activity_layout_alias);
 	}
