@@ -75,6 +75,9 @@ public class DemoListActivity extends ListActivity {
 		// Demonstrates how to use different style parent
 		mAdapter.addActivityItem("Drawables - Shapes", DrawableXmlActivity.class);
 
+		// Demonstrates one use of layer drawables
+		mAdapter.addActivityItem("Drawables - Layer Drawable", LayerDrawableActivity.class);
+
 		// Demonstrates how to use layout aliasing
 		mAdapter.addLayoutItem("Aliases - Layouts", R.layout.activity_layout_alias);
 	}
