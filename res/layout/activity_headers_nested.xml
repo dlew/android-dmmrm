@@ -7,7 +7,7 @@
 
     <!-- The header -->
     
-    <include layout="@layout/include_headers" />
+    <include layout="@layout/include_headers_nested" />
     
     <!-- The content -->
 
